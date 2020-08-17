@@ -1,0 +1,12 @@
+{
+    "dev": {
+        "app_function": "api.flask_app",
+        "profile_name": "default",
+        "project_name": "task",
+        "runtime": "python3.7",
+	    "slim_handler": true,
+        "s3_bucket": "zappa-h5yw86trb",  // replace this with your own bucket
+        "aws_region": "eu-west-1", // replace this with your own region
+        "keep_warm": false,  // set to true in order to keep lambda function warm
+    }
+}

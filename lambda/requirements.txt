@@ -1,0 +1,8 @@
+zappa
+flask
+numpy
+pandas
+scikit-learn
+sklearn-pandas
+joblib
+shap
